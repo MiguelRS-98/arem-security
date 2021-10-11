@@ -9,6 +9,10 @@ Posteriormente se generara una logeo por parte del usuario con el fin de autenti
 
 ### Descripción de la aplicación
 ![Arquitectura](Images/Arquitectura.jpg)<br>
+La distribución de esta se genera mediante la solicitud de un usuario al login de un sitio web en su Browser determinado, sabiendo que este sitio es se compone de ___http___ para su funcionamiento, pero la seguridad se compromete con ___ssl___ dando como finalidad el funcionamiento protocolo de seguridad ___https___ para la integridad de los datos de los usuarios.
+<br>
+Con lo cual se necesita las ___KeyStore___ y ___TrustStore___ en el momento del login u otro servicio solicitado por el usuario que requiera algún tipo de datos al servidor. El ___KeyStore___ son claves cifradas de seguridad privadas que utilizan la encriptación de ___ssl___, por otro lado se encuentra ___TrustStore___ que así como las ___KeyStore___ utilizan la encriptación de ___ssl___, pero la diferencia se encuentra en que esta es de concepto público.
+
 
 ### Requisitos :
 > - Java 1.8
